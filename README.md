@@ -1,24 +1,23 @@
 # :collision: Hello! Welcome to my Profile! :collision:
 
 ### Some Info about me:
-My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
+My name is UponShadows, Currently developing Web Applications, Discrod Bots , 2D/3D Games, 3D Animations & Renders!
 ## Currently Working with:
-
-[![My Skills](https://skillicons.dev/icons?i=Python,Django,Blender,js,html,css,wasm)](https://skillicons.dev)
-
-> ### Languages
-+ Python
-+ Django
-+ Javascript
-+ GDScript
+> ### Familiar with:
++ [![My Skills](https://skillicons.dev/icons?i=python,django,js,css,scss,bootstrap,gdscript,git,github)](https://skillicons.dev)
 
 > ### Programms & Engines
 + [![My Skills](https://skillicons.dev/icons?i=blender)](https://skillicons.dev) Blender 3D
-+ [![My Skills](https://skillicons.dev/icons?i=photoshop)](https://skillicons.dev) Photoshop
 + [![My Skills](https://skillicons.dev/icons?i=godot)](https://skillicons.dev) Godot
++ [![My Skills](https://skillicons.dev/icons?i=photoshop)](https://skillicons.dev) Photoshop
++ [![My Skills](https://skillicons.dev/icons?i=ai)](https://skillicons.dev) Illustrator
 
 ## Worked With:
-> 
+
+### Languages
++ [![My Skills](https://skillicons.dev/icons?i=cs,)](https://skillicons.dev)
+
+> ### Programms
 + [![My Skills](https://skillicons.dev/icons?i=unreal)](https://skillicons.dev) Unreal Engine 4
 + [![My Skills](https://skillicons.dev/icons?i=unity)](https://skillicons.dev) Unity
 + [![My Skills](https://skillicons.dev/icons?i=ae)](https://skillicons.dev) Adobe After Effects
@@ -40,7 +39,9 @@ My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
 
 + [Boost Digi Culture](https://boostdigiculture-learning.eu/):
     + Created Back & Front-End Functionality, Including the Map <br>
-    <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
+    <p align="center">
+        <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
+    </p>
 
 
 <!--

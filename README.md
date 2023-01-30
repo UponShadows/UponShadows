@@ -1,12 +1,14 @@
 # :collision: Hello! Welcome to my Profile! :collision:
 
 ### Some Info about me:
-My name is UponShadows, Currently developing Web Applications, Discrod Bots/Servers , 2D/3D Games, 3D Animations & Renders!
-## Currently Working with:
- [![My Skills](https://skillicons.dev/icons?i=py,django,redis,fastapi,solidity,js,jquery,html,css,scss,mysql,nginx,gunicorn,bootstrap,tailwind,godot,git,github,gitlab,discord,)](https://skillicons.dev)
+My name is UponShadows, Currently developing Web Applications, Discrod Bots & Servers , 2D/3D Games, 3D Animations & Renders!
+Feel free to contact me.
+
+## Currently Working with & learning:
+ [![My Skills](https://skillicons.dev/icons?i=py,django,redis,fastapi,solidity,js,jquery,html,css,scss,mysql,nginx,bootstrap,tailwind,godot,git,github,gitlab,discord)](https://skillicons.dev)
 
 ## Using: 
-+ [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) Blender 3D
++ [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
 
 
 > ### Programms & Engines
@@ -18,7 +20,7 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots/Serv
 ## Worked With:
 
 ### Languages
-+ [![My Skills](https://skillicons.dev/icons?i=cs,)](https://skillicons.dev)
++ [![My Skills](https://skillicons.dev/icons?i=cs,c,solidity)](https://skillicons.dev)
 
 > ### Programms
 + [![My Skills](https://skillicons.dev/icons?i=unreal)](https://skillicons.dev) Unreal Engine 4
@@ -33,7 +35,7 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots/Serv
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=UponShadows&layout=compact&count_private=true&border_color=b949e6&theme=radical&card_width=400&text_color=5adba3)](https://github.com/UponShadows)
 
-## Projects I have Contibuted:
+## Projects:
 
 > Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
@@ -49,7 +51,7 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots/Serv
     + Created Assets For Both 3D & 2D version
     + Functionality & Animations
 + [OpenMindsGame](https://#): 
-    - Comming Soon
+    - Design & Functionality <sub>Game Comming Soon!</sub>
     - [Project_Site](https://openminds-project.eu/)
 
 <!--
@@ -60,7 +62,7 @@ Here are some ideas to get you started:
 -->
 
 --🔭 I’m currently working at @innovationHive
-- 📫 How to reach me: uponshadows2@gmail.com
+- 📫 Reach me: uponshadows2@gmail.com
 <!--
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...

@@ -1,6 +1,10 @@
-# :collision: Hello! Welcome! :collision:
+# :collision: Hello! Welcome to my Profile! :collision:
 
+### Some Info about me:
+My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
 ## Currently Working with:
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 > ### Languages
 + Python
@@ -19,7 +23,7 @@
 + Unity 
 + Adobe After Effects
 
-+ <sub>& the Basics of</sub>Ableton 
++ Ableton <sub>~~ Basics ~~</sub> 
 
 
 ## Some Stats: 

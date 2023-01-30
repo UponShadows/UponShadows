@@ -1,15 +1,18 @@
 # :collision: Hello! Welcome to my Profile! :collision:
 
 ### Some Info about me:
-My name is UponShadows, Currently developing Web Applications, Discrod Bots , 2D/3D Games, 3D Animations & Renders!
+My name is UponShadows, Currently developing Web Applications, Discrod Bots/Servers , 2D/3D Games, 3D Animations & Renders!
 ## Currently Working with:
-> ### Familiar with:
-+ [![My Skills](https://skillicons.dev/icons?i=python,django,js,css,scss,bootstrap,gdscript,git,github)](https://skillicons.dev)
+ [![My Skills](https://skillicons.dev/icons?i=py,django,redis,fastapi,solidity,js,jquery,html,css,scss,mysql,nginx,gunicorn,bootstrap,tailwind,godot,git,github,gitlab,discord,)](https://skillicons.dev)
+
+## Using: 
++ [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) Blender 3D
+
 
 > ### Programms & Engines
 + [![My Skills](https://skillicons.dev/icons?i=blender)](https://skillicons.dev) Blender 3D
 + [![My Skills](https://skillicons.dev/icons?i=godot)](https://skillicons.dev) Godot
-+ [![My Skills](https://skillicons.dev/icons?i=photoshop)](https://skillicons.dev) Photoshop
++ [![My Skills](https://skillicons.dev/icons?i=ps)](https://skillicons.dev) Photoshop
 + [![My Skills](https://skillicons.dev/icons?i=ai)](https://skillicons.dev) Illustrator
 
 ## Worked With:

@@ -13,14 +13,14 @@ My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
 + GDScript
 
 > ### Programms & Engines
-+ [![My Skills](https://skillicons.dev/icons?i=Blender)](https://skillicons.dev) Blender 3D
-+ [![My Skills](https://skillicons.dev/icons?i=Photoshop)](https://skillicons.dev) Photoshop
-+ [![My Skills](https://skillicons.dev/icons?i=Godot)](https://skillicons.dev) Godot
++ [![My Skills](https://skillicons.dev/icons?i=blender)](https://skillicons.dev) Blender 3D
++ [![My Skills](https://skillicons.dev/icons?i=photoshop)](https://skillicons.dev) Photoshop
++ [![My Skills](https://skillicons.dev/icons?i=godot)](https://skillicons.dev) Godot
 
 ## Worked With:
 > ### Programms
-+ [![My Skills](https://skillicons.dev/icons?i=Unreal)](https://skillicons.dev) Unreal Engine 4
-+ [![My Skills](https://skillicons.dev/icons?i=Unity)](https://skillicons.dev) Unity
++ [![My Skills](https://skillicons.dev/icons?i=unreal)](https://skillicons.dev) Unreal Engine 4
++ [![My Skills](https://skillicons.dev/icons?i=unity)](https://skillicons.dev) Unity
 + [![My Skills](https://skillicons.dev/icons?i=ae)](https://skillicons.dev) Adobe After Effects
 
 + [![My Skills](https://skillicons.dev/icons?i=ableton)](https://skillicons.dev) Ableton *<sub>~~Basics~~</sub> 

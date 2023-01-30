@@ -35,13 +35,11 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots , 2D
  > Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
     + Created Back-End Functionality <br>
-    <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
+     **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) 
 
 + [Boost Digi Culture](https://boostdigiculture-learning.eu/):
     + Created Back & Front-End Functionality, Including the Map <br>
-    <p align="center">
-        <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
-    </p>
+     **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) 
 
 
 <!--

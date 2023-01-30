@@ -23,9 +23,11 @@ Godot
  > Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
     + Created Back-End Functionality
+    <sub> Used: Django, Javascript, bootstrap, SCSS </sub>
 
 + [Boost Digi Culture](https://boostdigiculture-learning.eu/):
-    + Created Back & Front End Functionality Including the Map
+    + Created Back & Front-End Functionality, Including the Map
+    <sub> Used Django, Javascript, bootstrap, SCSS </sub>
 
 
 <!--

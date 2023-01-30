@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-[![UponShadows's GitHub stats](https://github-readme-stats.vercel.app/api?username=UponShadows&hide=stars&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![UponShadows's GitHub stats](https://github-readme-stats.vercel.app/api?username=UponShadows&hide=stars&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=UponShadows&layout=compact&count_private=true)](https://github.com/UponShadows)
 

@@ -21,7 +21,7 @@ Godot
 ## Projects I have Contibuted:
 
  > Learning Platforms:
-+ [Co-Art] :  (https://co-art-hub.eu/)
++ [Co-Art](https://co-art-hub.eu/)
 + Boost Digi: 
 
 

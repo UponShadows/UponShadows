@@ -4,7 +4,7 @@
 My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
 ## Currently Working with:
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=Python,Django,Blender,js,html,css,wasm)](https://skillicons.dev)
 
 > ### Languages
 + Python
@@ -13,17 +13,17 @@ My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
 + GDScript
 
 > ### Programms & Engines
-+ Blender 3D 
-+ Photoshop
-+ Godot
++ [![My Skills](https://skillicons.dev/icons?i=Blender)](https://skillicons.dev) Blender 3D
++ [![My Skills](https://skillicons.dev/icons?i=Photoshop)](https://skillicons.dev) Photoshop
++ [![My Skills](https://skillicons.dev/icons?i=Godot)](https://skillicons.dev) Godot
 
 ## Worked With:
 > ### Programms
-+ Unreal Engine 4
-+ Unity 
-+ Adobe After Effects
++ [![My Skills](https://skillicons.dev/icons?i=Unreal)](https://skillicons.dev) Unreal Engine 4
++ [![My Skills](https://skillicons.dev/icons?i=Unity)](https://skillicons.dev) Unity
++ [![My Skills](https://skillicons.dev/icons?i=ae)](https://skillicons.dev) Adobe After Effects
 
-+ Ableton <sub>~~ Basics ~~</sub> 
++ [![My Skills](https://skillicons.dev/icons?i=ableton)](https://skillicons.dev) Ableton *<sub>~~Basics~~</sub> 
 
 
 ## Some Stats: 
@@ -36,11 +36,11 @@ My name is UponShadows, Currently developing Web Applications & 2D/3D Games!
  > Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
     + Created Back-End Functionality <br>
-    <sub> **Used:** Django, Javascript, bootstrap, SCSS </sub>
+    <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
 
 + [Boost Digi Culture](https://boostdigiculture-learning.eu/):
     + Created Back & Front-End Functionality, Including the Map <br>
-    <sub> **Used:** Django, Javascript, bootstrap, SCSS </sub>
+    <sub> **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) </sub>
 
 
 <!--

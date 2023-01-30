@@ -1,8 +1,8 @@
 # :collision: Hello! Welcome to my Profile! :collision:
 
 ### Some Info about me:
-My name is UponShadows, Currently developing Web Applications, Discrod Bots & Servers , 2D/3D Games, 3D Animations & Renders!
-Feel free to contact me.
+My name is UponShadows, Currently developing:<br> Web Applications,<br> Discrod Bots & Servers,<br> 2D/3D Games,<br> 3D Animations & Renders!<br>
+Feel free to contact me :D
 
 ## Currently Working with & learning:
  [![My Skills](https://skillicons.dev/icons?i=py,django,redis,fastapi,solidity,js,jquery,html,css,scss,mysql,nginx,bootstrap,tailwind,godot,git,github,gitlab,discord)](https://skillicons.dev)

@@ -32,7 +32,7 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots , 2D
 
 ## Projects I have Contibuted:
 
- > Learning Platforms:
+> Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
     + Created Back-End Functionality <br>
      **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) 
@@ -41,6 +41,13 @@ My name is UponShadows, Currently developing Web Applications, Discrod Bots , 2D
     + Created Back & Front-End Functionality, Including the Map <br>
      **Used:** [![My Skills](https://skillicons.dev/icons?i=django,js,scss,bootstrap)](https://skillicons.dev) 
 
+> Games : 
++ [DISC](https://disc-game.eu):
+    + Created Assets For Both 3D & 2D version
+    + Functionality & Animations
++ [OpenMindsGame](https://#): 
+    - Comming Soon
+    - [Project_Site](https://openminds-project.eu/)
 
 <!--
 **UponShadows/UponShadows** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

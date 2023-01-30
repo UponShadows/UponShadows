@@ -61,7 +61,7 @@ Here are some ideas to get you started:
 
 -->
 
---🔭 I’m currently working at @innovationHive
+--🔭 I’m currently working at @InnovationHive
 - 📫 Reach me: uponshadows2@gmail.com
 <!--
 - 🌱 I’m currently learning ...

@@ -1,17 +1,17 @@
-### :collision: Hello! Welcome to my Profile! :collision:
+# :collision: Hello! Welcome to my Profile! :collision:
 
 ## Currently Working with:
 
-# Languages
-Python
-Django
-Javascript
-GDScript
+> ### Languages
++ Python
++ Django
++ Javascript
++ GDScript
 
-# Programms
-Photoshop
-Blender 3D 
-Godot
+> ### Programms
++ Photoshop
++ Blender 3D 
++ Godot
 
 ## Some Stats: 
 [![UponShadows's GitHub stats](https://github-readme-stats.vercel.app/api?username=UponShadows&hide=stars&count_private=true&theme=radical&border_color=b949e6&text_color=5adba3)](https://github.com/anuraghazra/github-readme-stats)
@@ -23,11 +23,11 @@ Godot
  > Learning Platforms:
 + [Co-Art](https://co-art-hub.eu/):
     + Created Back-End Functionality <br>
-    <sub> Used: Django, Javascript, bootstrap, SCSS </sub>
+    <sub> **Used:** Django, Javascript, bootstrap, SCSS </sub>
 
 + [Boost Digi Culture](https://boostdigiculture-learning.eu/):
     + Created Back & Front-End Functionality, Including the Map <br>
-    <sub> Used Django, Javascript, bootstrap, SCSS </sub>
+    <sub>** Used: ** Django, Javascript, bootstrap, SCSS </sub>
 
 
 <!--

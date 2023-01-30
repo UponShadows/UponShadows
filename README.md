@@ -1,7 +1,7 @@
 # :collision: Hello! Welcome to my Profile! :collision:
 
 ### Some Info about me:
-My name is UponShadows, Currently developing:<br> Web Applications,<br> Discrod Bots & Servers,<br> 2D/3D Games,<br> 3D Animations & Renders!<br>
+My name is *UponShadows*, Currently developing:<br> Web Applications,<br> Discord Bots & Servers,<br> 2D/3D Games,<br> 3D Animations & Renders!<br>
 Feel free to contact me :D
 
 ## Currently Working with & learning:
@@ -23,9 +23,9 @@ Feel free to contact me :D
 + [![My Skills](https://skillicons.dev/icons?i=cs,c,solidity)](https://skillicons.dev)
 
 > ### Programms
-+ [![My Skills](https://skillicons.dev/icons?i=unreal)](https://skillicons.dev) Unreal Engine 4
++ [![My Skills](https://skillicons.dev/icons?i=unreal)](https://skillicons.dev) Unreal Engine 4 *<sub>~~Basics~~</sub> 
 + [![My Skills](https://skillicons.dev/icons?i=unity)](https://skillicons.dev) Unity
-+ [![My Skills](https://skillicons.dev/icons?i=ae)](https://skillicons.dev) Adobe After Effects
++ [![My Skills](https://skillicons.dev/icons?i=ae)](https://skillicons.dev) Adobe After Effects *<sub>~~Basics~~</sub> 
 
 + [![My Skills](https://skillicons.dev/icons?i=ableton)](https://skillicons.dev) Ableton *<sub>~~Basics~~</sub> 
 

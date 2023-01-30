@@ -1,4 +1,4 @@
-### :U+1F4A5: Hello! Welcome to my Profile!
+### :collision: Hello! Welcome to my Profile!
 
 ## Currently Working with:
 

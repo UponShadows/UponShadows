@@ -21,8 +21,11 @@ Godot
 ## Projects I have Contibuted:
 
  > Learning Platforms:
-+ [Co-Art](https://co-art-hub.eu/)
-+ Boost Digi: 
++ [Co-Art](https://co-art-hub.eu/):
+    + Created Back-End Functionality
+
++ [Boost Digi Culture](https://boostdigiculture-learning.eu/):
+    + Created Back & Front End Functionality Including the Map
 
 
 <!--

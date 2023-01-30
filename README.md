@@ -1,13 +1,17 @@
-### Hello! Welcome to my Profile!
+### :U+1F4A5: Hello! Welcome to my Profile!
 
-<!-- STYLES -->
-<style> 
-    .box{
-        background-color:blue;
-    }
+## Currently Working with:
 
+# Languages
+Python
+Django
+Javascript
+GDScript
 
-</style>
+# Programms
+Photoshop
+Blender 3D 
+Godot
 
 ## Some Stats: 
 [![UponShadows's GitHub stats](https://github-readme-stats.vercel.app/api?username=UponShadows&hide=stars&count_private=true&theme=radical&border_color=b949e6&text_color=5adba3)](https://github.com/anuraghazra/github-readme-stats)
@@ -16,7 +20,10 @@
 
 ## Projects I have Contibuted:
 
-<h2 class="box"> Test 2 </h2>
+ > Learning Platforms:
+    + Co-Art : 
+    + Boost Digi: 
+
 
 <!--
 **UponShadows/UponShadows** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

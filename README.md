@@ -1,4 +1,4 @@
-### :collision: Hello! Welcome to my Profile!
+### :collision: Hello! Welcome to my Profile! :collision:
 
 ## Currently Working with:
 
@@ -21,8 +21,8 @@ Godot
 ## Projects I have Contibuted:
 
  > Learning Platforms:
-    + Co-Art : 
-    + Boost Digi: 
++ [Co-Art] :  (https://co-art-hub.eu/)
++ Boost Digi: 
 
 
 <!--

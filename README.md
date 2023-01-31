@@ -8,7 +8,7 @@ Feel free to contact me :D
  [![My Skills](https://skillicons.dev/icons?i=py,django,redis,fastapi,solidity,js,jquery,html,css,scss,mysql,nginx,bootstrap,tailwind,godot,git,github,gitlab,discord)](https://skillicons.dev)
 
 ## Using: 
-+ [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev)
++ [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) VS Code
 
 
 > ### Programms & Engines

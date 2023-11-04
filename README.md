@@ -50,7 +50,7 @@ Feel free to contact me :D
 + [DISC](https://disc-game.eu):
     + Created Assets For Both 3D & 2D version
     + Functionality & Animations
-+ [OpenMindsGame]([https://#](https://innovationhive.itch.io/openminds)): 
++ [OpenMindsGame](https://innovationhive.itch.io/openminds): 
     - Design & Functionality 
     - [Project_Site](https://openminds-project.eu/)
 

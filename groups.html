@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<style>
+    .button-color{
+        background: hsla(226, 47%, 27%, 1);
+
+        background: linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -moz-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -webkit-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243364", endColorstr="#000000", GradientType=1 );
+    }
+
+    .img-line:after{
+        content:"";
+        border-bottom:4px solid #6ba8d9;
+        left:-967px;
+        bottom:33px;
+        height:20px;
+        width:1000px;
+        position:absolute;
+        z-index:30;
+    }
+</style>
+<body>
+    
+    <main  id="main" class="flex flex-col relative">
+        
+        <nav id="navigationbar" class="z-20 flex flex-col bg-[#6ba8d9] fixed top-[20%] min-w-[500px] right-[-460px] min-h-[500px] rounded-[30px] p-6 px-10">
+
+        
+            <div class="flex flex-col mb-4 relative">
+                <img name="testname" class="absolute h-[100px] w-[100px] top-[-80px] left-[-140px]" src="src/taipedArrow.svg" alt="">
+             
+                <h1 class="font-bold">HRADF</h1>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+            </div>
+
+            <div class="flex flex-col  mb-4">
+                <h1 class="font-bold">Groups of Assets</h1>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+         
+            </div>
+
+            <div class="flex flex-col ">
+                <h1 class="font-bold">Assets</h1>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+                <div>test someting </div>
+            </div>
+
+        </nav>
+        
+
+        <div class="flex flex-col bg-[#202c5b] h-fit  ">
+            <div class="flex  basis-1/5 flex items-center p-10 px-20 ">
+                <p class="basis-1/4 flex justify-start items-center text-white text-xl leading-5">
+                    <img src="src/taipedArrow.svg" alt="">
+                    HELLENIC REPUBLIC ASSET <br> DEVELOPEMENT FUND 
+                </p>
+                <!-- <p class="basis-1/4 flex justify-center items-center text-lg font-bold tracking-[0.43rem] text-gray-500/80">
+                    YOUR GATEWAY <br> TO INVESTING IN GREECE 
+                </p> -->
+                <p class="basis-1/4 flex justify-center items-center"> </p>
+                <p class="basis-1/4 flex justify-center items-center"> </p>
+                
+            </div>
+            <div class="flex flex-col basis-4/5 bg-white p-6 md:p-10 lg:p-16 py-10 pt-0 md:pt-0 lg:pt-0 text-2xl md:text-3xl lg:text-4xl xl:text-6xl overflow-x-hidden" >
+                <!-- BOX SHADOW HAS MARGIN BOTTOM  -->
+                <div class="h-[1px] w-[120%] translate-x-[-10%] bg-black/55 mb-16" style="box-shadow: rgba(0, 0, 0, 1) 0px 0px 50px 15px;"></div>
+
+                <h1 class="pb-6 md:pb-8 lg:pb-10 text-[#202c5b]">GROUPS OF ASSETS</h1>
+                <div class=" gap-4 mobileCenter ">
+                   
+                    <div onclick="scrollToElement('SEASIDE')" class="w-full aspect-[4/6] flex flex-col h-full mx-2">
+                        <div class="h-[20%] flex justify-center items-center  text-xs lg:text-sm xl:text-xl   bg-[#202c5b] text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl p-1 pt-2 md:p-2 lg:p-4 text-center">
+                            SEASIDE TOURISM & LEISURE
+                        </div>
+                        <div class="h-[65%] bg-green-100 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-center bg-cover h-[70%]" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="h-[15%] bg-green-100  rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-center bg-cover h-[20%]" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="scrollToElement('WELLNESS')" class="w-full aspect-[4/6] flex flex-col h-full mx-2">
+                        <div class="h-[20%] flex justify-center items-center  text-xs lg:text-sm xl:text-xl   bg-[#202c5b] text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl p-1 pt-2 md:p-2 lg:p-4 text-center">
+                            WELLNESS
+                        </div>
+                        <div class="h-[65%] bg-green-100 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-center bg-cover h-[70%]" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="h-[15%] bg-green-100  rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-center bg-cover h-[20%]" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="scrollToElement('SEASIDE')" class="w-full aspect-[4/6] flex flex-col h-full mx-2">
+                        <div class="h-[20%] flex justify-center items-center  text-xs lg:text-sm xl:text-xl   bg-[#202c5b] text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl p-1 pt-2 md:p-2 lg:p-4 text-center">
+                            SEASIDE TOURISM & LEISURE
+                        </div>
+                        <div class="h-[65%] bg-green-100 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-center bg-cover h-[70%]" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="h-[15%] bg-green-100  rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-center bg-cover h-[20%]" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="scrollToElement('SEASIDE')" class="w-full aspect-[4/6] flex flex-col h-full mx-2">
+                        <div class="h-[20%] flex justify-center items-center  text-xs lg:text-sm xl:text-xl   bg-[#202c5b] text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl p-1 pt-2 md:p-2 lg:p-4 text-center">
+                            SEASIDE TOURISM & LEISURE
+                        </div>
+                        <div class="h-[65%] bg-green-100 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-center bg-cover h-[70%]" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="h-[15%] bg-green-100  rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-center bg-cover h-[20%]" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div onclick="scrollToElement('SEASIDE')" class="w-full aspect-[4/6] flex flex-col h-full mx-2">
+                        <div class="h-[20%] flex justify-center items-center  text-xs lg:text-sm xl:text-xl   bg-[#202c5b] text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl p-1 pt-2 md:p-2 lg:p-4 text-center">
+                            SEASIDE TOURISM & LEISURE
+                        </div>
+                        <div class="h-[65%] bg-green-100 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-center bg-cover h-[70%]" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="h-[15%] bg-green-100  rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-center bg-cover h-[20%]" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>  
+        </div>
+
+        <!-- <div class="mobileCenter bg-red-100">
+
+            <div class="flex flex-col aspect-[1/1.4] w-[200px] lg:w-[220px] h-full mx-10">
+                <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-3xl bg-[#202c5b]">
+                    TITLE 1
+                </div>
+                <div class="basis-8/12 rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                    <p class="min-h-[180px]"></p>
+                    
+                </div>
+                <div class="basis-1/12 rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                    
+                </div>
+            </div>
+            
+            <div class="flex flex-col aspect-[1/1.4] w-[200px] lg:w-[220px] h-full mx-10">
+                <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-3xl bg-[#202c5b]">
+                    TITLE 1
+                </div>
+                <div class="basis-8/12 rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                    <p class="min-h-[180px]"></p>
+                    
+                </div>
+                <div class="basis-1/12 rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                    
+                </div>
+            </div>
+
+            <div class="flex flex-col aspect-[1/1.4] w-[200px] lg:w-[220px] h-full mx-10">
+                <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-3xl bg-[#202c5b]">
+                    TITLE 1
+                </div>
+                <div class="basis-8/12 rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                    <p class="min-h-[180px]"></p>
+                    
+                </div>
+                <div class="basis-1/12 rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                    
+                </div>
+            </div>
+           
+        </div> -->
+
+        <div class="flex flex-col h-fit p-6 md:px-10 lg:px-16 xl:px-20">
+            <h1 id="SEASIDE" class="text-2xl md:text-3xl lg:text-5xl text-[#6ba8d9] pb-2 md:pb-5 lg:pb-10">SEASIDE TOURISM & LEISURE </h1>
+
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+           
+        </div>
+
+        <div id="WELLNESS" class="flex flex-col h-fit  p-6 md:px-10 lg:px-16 xl:px-20">
+            <h1  class="text-2xl md:text-3xl lg:text-5xl text-[#6ba8d9] pb-2 md:pb-5 lg:pb-10">WELLNESS</h1>
+
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+
+            <div class="flex flex-col xl:flex-row gap-10 md:gap-16 lg:gap-20 justify-center items-center p-6 md:px-10 lg:px-16 pb-10">
+                <div class="basis-1/2 ">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl pb-4">KRYOOPIGI CAMPING</h2>
+                    <div class="text-sm md:text-lg lg:text-xl">
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                        Attract direct ivestments to maximize revenues to the Greek State.
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-row gap-3 h-full ">
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+                    <div class="flex flex-col aspect-[1/1.4] w-[110px] md:w-[150px] lg:w-[220px] h-full ">
+                        <div class="basis-3/12 flex justify-center items-center text-2xl text-white rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl bg-[#202c5b]">
+                            TITLE 1
+                        </div>
+                        <div class="basis-8/12 rounded-b-xl md:rounded-b-2xl lg:rounded-b-3xl bg-cover bg-center" style="background-image:url('src/testIMG.jpg')">
+                            
+                        </div>
+                        <div class="basis-1/12 rounded-t-xl md:rounded-t-2xl lg:rounded-t-3xl mt-1 bg-cover bg-center" style="background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.1741) 100%);">
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <!-- Mobile View For Assets of Groups -->
+    <script>
+        $('.mobileCenter').slick({
+            // centerMode: true,
+            // centerPadding: '0px',
+            slidesToShow: 5,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    // centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 2
+                }
+                }
+               
+               
+            ]
+            });
+
+    </script>
+
+    <script>
+        const scrollToElement = (id) => {
+            console.log('SCROLLING?', id)
+            document.getElementById(id).scrollIntoView({behavior:'smooth'});
+        }
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", ()=>{
+        // Scroll to toop 
+        // $(window).on('beforeunload', function() {
+        //     $(window).scrollTop(0);
+        // });
+
+        //Animate Video Arrow
+        let videoArrow = document.getElementById('videoArrow')
+        let main = document.getElementById('main')
+        
+
+            anime({
+                targets:videoArrow,
+                right:'-15px',
+                duration:1000,
+                easing:'easeOutCubic',
+            })
+
+        let navigationbar = document.getElementById('navigationbar')
+        navigationbar.addEventListener("mouseover",(e)=>{
+            console.log('Hovering ->', e.target.name)
+            if(e.target.name === 'testname'){
+                return
+            }
+            anime({
+                targets:navigationbar,
+                translateX:-230,
+                duration:1000
+
+            })
+        })
+
+        navigationbar.addEventListener("mouseleave",()=>{
+
+            anime({
+                targets:navigationbar,
+                translateX:0,
+                duration:1000
+
+            })
+        })
+
+       
+
+    // DOM
+    })
+</script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+</body>
+</html>

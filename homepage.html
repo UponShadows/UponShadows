@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<style>
+    .button-color{
+        background: hsla(226, 47%, 27%, 1);
+
+        background: linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -moz-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -webkit-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243364", endColorstr="#000000", GradientType=1 );
+    }
+
+    
+    .img-line:after{
+        content:"";
+        border-bottom:3px solid #6ba8d9;
+        left:-2420px;
+        bottom:48px;
+        height:1px;
+        width:2500px;
+        position:absolute;
+        z-index:30;
+    }
+
+  
+    @media (min-width: 768px) {
+        .img-line:after{
+            content:"";
+            border-bottom:3px solid #6ba8d9;
+            left:-2420px;
+            bottom:72px;
+            height:1px;
+            width:2500px;
+            position:absolute;
+            z-index:30;
+        }
+    }
+    @media (min-width: 1025px) {
+        .img-line:after{
+            content:"";
+            border-bottom:3px solid #6ba8d9;
+            left:-2420px;
+            bottom:95px;
+            height:1px;
+            width:2500px;
+            position:absolute;
+            z-index:30;
+        }
+    }
+    @media (min-width: 1280px) {
+        .img-line:after{
+            content:"";
+            border-bottom:3px solid #6ba8d9;
+            left:-2420px;
+            bottom:95px;
+            height:1px;
+            width:2500px;
+            position:absolute;
+            z-index:30;
+        }
+    }
+    @media (min-width: 1536px) {
+        .img-line:after{
+            content:"";
+            border-bottom:3px solid #6ba8d9;
+            left:-2420px;
+            bottom:95px;
+            height:1px;
+            width:2500px;
+            position:absolute;
+            z-index:30;
+        }
+    }
+</style>
+<body>
+    
+    <main class="flex flex-col">
+        
+        <div class="h-screen max-h-screen relative overflow-x-hidden">
+            <!-- <nav id="navigationbar" class="z-20 flex flex-col bg-[#6ba8d9] fixed top-[25%] min-w-[500px] right-[-460px] min-h-[500px] rounded-[30px] p-6 px-10">
+
+            
+                <div class="flex flex-col mb-4 relative">
+                    <img id="navArrow" name="testname" class="absolute h-[100px] w-[100px] top-[-80px] left-[-140px]" src="src/taipedArrow.svg" alt="" style="transform: scaleX(-1);">
+                 
+                    <h1 class="font-bold">HRADF</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                </div>
+    
+                <div class="flex flex-col  mb-4">
+                    <h1 class="font-bold">Groups of Assets</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+             
+                </div>
+    
+                <div class="flex flex-col ">
+                    <h1 class="font-bold">Assets</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                </div>
+    
+            </nav> -->
+    
+            <div class="flex flex-col bg-[#202c5b] h-screen relative">
+                <div class="basis-1/2 flex justify-end items-end relative overflow-hidden">
+                    <div class="h-full w-[45%] bg-black/50 bg-no-repeat bg-cover bgPosition" style="background-image:url('src/homepage/beach.jpg');">
+                        <div class="h-full w-[1600px]  bg-[#202c5b] animateImage1" style="transform-origin:bottom left;transform:rotate(-0deg)">
+
+                        </div>
+
+                    </div>
+
+                    <!-- Cross Double image -->
+                    <div class="z-[23] bg-green-500 h-fit  right-[45%] absolute crossImage" style="opacity:0%;">
+                        <div class=" bg-green-800 h-[300px] aspect-[4/3] bg-cover bg-center" style="transform-origin: left;background-image:url('src/homepage/bench.jpg')">
+                            
+                        </div>
+                    </div>
+
+                    <div id="headingLetterContainer" class="absolute bottom-[5%] right-[27%] flex flex-col p-2 w-fit headingLetterContainer">
+                        <div class="flex w-fit whitespace-wrap text-xl text-white font-medium ">
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">H</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">L</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">L</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">N</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">I</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">C</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">R</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">P</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">U</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">B</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">L</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">I</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">C</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">A</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">S</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">S</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">T</span>
+                        </div>
+                        <div class="flex w-fit whitespace-wrap text-xl text-white font-medium">
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">D</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">V</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">L</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">O</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">P</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">M</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">E</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">N</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">T</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">F</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">U</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">N</span>
+                            <span class="headingLetter" style="transform:translateY(80px);opacity:100;">D</span>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="basis-1/2 flex justify-between relative overflow-hidden">
+                    <div class=" z-[20] w-[55%] bg-cover bg-bottom leftImage" style="background-image:url('src/homepage/bigWoods.jpg');opacity:0%">
+                        <!-- <img src="src/Numbers.png" alt=""> -->
+                    </div>
+                    <!-- <div class="basis-1/2 z-[20] w-[30%] bg-red-100 leftImage" style="background-image:url('src/Numbers.png');opacity:0%">
+                        <img src="src/Numbers.png" alt="">
+                    </div> -->
+
+                    <!-- Cross Double image -->
+                    <div class="z-[23] bg-green-500 h-[1px] aspect-square left-[55%] absolute crossImage" style="opacity:0%;">
+                        <div class=" bg-green-800 h-[300px] aspect-[4/3] bg-cover bg-center" style="transform-origin: left;background-image: url('src/homepage/snow.jpg');">
+                            
+                        </div>
+                    </div>
+
+                    <div class="h-full w-[45%] bg-black/50  bg-cover">
+                        <div class="h-full w-[1600px]  bg-[#202c5b] animateImage2 p-10" style="transform-origin:top left;transform:rotate(-0deg)">
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="z-[22] absolute right-[18%] text-white text-xl font-medium pt-6 tracking-[0.7rem]">
+                        <div class="flex w-fit whitespace-wrap text-xl text-white font-medium">
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">Y</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">O</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">U</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">R</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">G</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">A</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">T</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">E</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">W</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">A</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">Y</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">&nbsp;</span>
+                        </div>
+                        <div class="flex w-fit whitespace-wrap text-xl text-white font-medium">   
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">T</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">O</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">I</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">N</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">V</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">E</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">S</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">T</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">I</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">N</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">G</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">I</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">N</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">&nbsp;</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">G</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">R</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">E</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">E</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">C</span>
+                            <span class="headingLetterFinal" style="transform:translateY(-100px);opacity:100;">E</span>
+                        </div>
+                    </div>
+
+                    <!-- Shadow for final image -->
+                    <div class="z-[10] absolute right-[0px]  w-[45%]  bg-cover shadowFinalImage" style="border: 0px solid transparent 870px solid rgba(231, 14, 14, 0.603) 10px solid transparent 0px solid transparent;">
+                       
+
+                    </div>
+                    <style>
+                        .shadowFinalImage{
+                            border-width: 0px 870px 0px 0px;
+                            border-color: transparent rgba(0, 0, 0, 0.6) transparent green;
+                        }
+                    </style>
+                    
+                    <!-- Shadow Effect -->
+                    <div class="z-[10] absolute top-[0px] bg-black/30 h-[1px] shadowEffect" style="width:0%;box-shadow: rgba(0, 0, 0, 1) 0px -40px 130px 100px;">
+                        
+                    </div>
+
+                    <!-- Final Image Under Shadow  Effect -->
+                    <div class="z-[9] absolute top-[0px] h-[300px] bg-cover  bg-top finalImage" style="width:0%;background-image:url('src/homepage/MarinaResized.jpg');opacity:1;">
+                        <div class="h-full w-full bg-[#040829]/80 " ></div>
+                    </div>
+                     <!-- Final Button 'ENTER' -->
+                    <div id="continueButton" onclick="goToIndeX()" class="hidden absolute z-[20] right-[48%] bottom-[15%] bg-[#202c5b] hover:cursor-pointer text-white button-color rounded-md px-2 p-1 text-xl mx-auto" style="opacity:0;">
+                        ΕΙΣΟΔΟΣ
+                    </div>
+
+                </div>
+               
+                <!-- Arrow -->
+                <div class="z-[30] absolute h-[1px] w-[100px] top-[48.7%]  left-[-2000px] flex items-center p-2 animatedTitle">
+                    <div class="h-[100px] w-[100px] md:h-[150px] md:w-[150px] xl:h-[200px] xl:w-[200px] bg-contain bg-no-repeat block img-line relative"  alt="" style="background-image:url('src/taipedArrow-white.svg')">
+                        <p class="h-[200px] aspect-square">
+                            <button onclick="goToIndeX()" class=" h-full w-full "></button>
+                        </p>    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+        
+
+    </main>
+
+    <script>
+
+        
+        document.addEventListener("DOMContentLoaded", ()=>{
+            let arrowPosition = '1%'
+            const checkWidth = () => {
+                
+
+                let win = window.innerWidth
+                let sm = 639
+                let md = 767
+                let lg = 1025
+                let xl = 1519
+                
+    
+                //Desktop
+                if(win > xl){
+                    console.log('DESKTOP')
+                    arrowPosition = '45%'
+                }
+                //Big laptop
+                if( win > lg & win < xl){
+                    console.log('Big laptop')  
+                    arrowPosition = '41.8%'
+
+                }
+                //Small laptop
+                if( win > md & win < lg ){
+                    console.log('Small laptop')  
+                    arrowPosition = '40.7%'
+
+                }
+                //Phone 
+                if( win < sm){
+                    console.log('PHONEEEE')  
+                    arrowPosition = '28.5%'
+
+                }
+    
+            }
+            
+            window.addEventListener('resize', checkWidth())
+            checkWidth()
+
+
+            anime({ 
+                targets:'.shadowEffect',
+                width:'100%',
+                delay:200,
+                duration:2000,
+                easing:'easeOutQuart',
+
+            })
+
+            //Animate arrow with shadow effect
+            anime({
+                targets:'.animatedTitle',
+                left:arrowPosition,
+                easing:'easeOutQuart',
+                complete:()=>{animateLetters()} 
+            })
+
+            const animateLetters = ()=>{
+                    //Animate the Letters Popping up
+                anime({
+                    targets:'.headingLetter',
+                    translateY:'0px',
+                    delay:anime.stagger(20),
+                    duration:1000,
+                    easing:'easeOutQuart',
+                    complete:()=>{
+
+                        //Animate the Fade out effect of the letters
+                        anime({
+                            targets:'.headingLetter',
+                            //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                            opacity:'0',
+                            easing:'easeOutQuart',
+                            delay:anime.stagger(15),
+                            duration:3000,
+                            // translateY:[{value:'100px', delay:20000}],
+                            complete:()=>{animateImage()}
+                        })
+                    }
+                })
+            }
+
+            const animateImage = () => {
+                anime({
+                    targets:'.animateImage1',
+                    //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                    rotate:'-25deg',
+                    easing:'easeInOutQuint',
+                    duration:1000,
+                })
+                anime({
+                    targets:'.animateImage2',
+                    //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                    rotate:'25deg',
+                    easing:'easeInOutQuint',
+                    duration:1000,
+                })
+                anime({
+                    targets:'.leftImage',
+                    opacity:'1',
+                    duration:1000,
+                    easing:'easeInOutQuint',
+                    complete:()=>{animateImages2()}
+                })
+            }
+            const animateImages22 = () => {console.log('Working.')}
+            const animateImages2 = () => {
+
+                setTimeout(()=>{
+
+                    anime({
+                        targets:'.bgPosition',
+                        backgroundPosition:'-1000px',
+                        duration:2000,
+                        easing:'easeOutQuart',
+    
+                    })
+                    anime({
+                        //delay:2000,
+                        targets:'.animateImage2',
+                        //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                        rotate:'0deg',
+                        easing:'easeInOutQuint',
+                        duration:500,
+                        complete:()=>{animateImages3()}
+                    })
+                    
+                    
+
+                },2000)
+            }
+
+
+            const animateImages3 = ()=>{
+                anime({
+                    targets:'.leftImage',
+                    opacity:'0',
+                    duration:1000,
+                    easing:'linear',
+                })
+                anime({
+                    targets:'.crossImage',
+                    opacity:'1',
+                    duration:1500,
+                    delay:anime.stagger(400),
+                    complete:()=>{animateLetters2()}
+                })
+            }
+
+            const animateLetters2 = ()=>{
+                
+                //Center Letters For desktop
+                document.getElementById('headingLetterContainer').style.right = '30%'
+                
+                anime({
+                    targets:'.headingLetter',
+                    opacity:'1',
+                    translateY:'0px',
+                    duaration:1000,
+                    delay:anime.stagger(10),
+                    easing:'easeOutQuart',
+                    complete:()=>{ animateFinal()}
+                })
+                
+            }
+
+            const animateFinal = () => {
+                anime({
+                    targets:'.crossImage',
+                    opacity:'0',
+                    duration:1000,
+                    easing:'easeOutQuart',
+                    delay:anime.stagger(400)
+                })
+                anime({
+                    targets:'.animateImage1',
+                    //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                    rotate:'0deg',
+                    easing:'easeInOutQuint',
+                    duration:1000,
+                    
+                })
+                // anime({
+                //     targets:'.animateImage2',
+                //     //translateY:[{value:'50px',delay:anime.stagger(20),duration:3000}],
+                //     rotate:'25deg',
+                //     easing:'easeInOutQuint',
+                //     delay:300,
+                //     duration:1000,
+                // })
+                anime({
+                    targets:'.shadowFinalImage',
+                    borderWidth: '0px 870px 405px 0px',
+                    delay:350,
+                    duration:1000,
+                    easing:'easeInOutQuint',
+                })
+                anime({
+                    targets:'.finalImage',
+                    width:'100%',
+                    duration:600,
+                    easing:'easeInOutQuint',
+                    complete:()=>{
+                        anime({
+                            targets:'.headingLetterFinal',
+                            translateY:'0px',
+                            duration:1000,
+                            easing:'easeInOutQuint',
+                            delay:anime.stagger(20),
+
+                            //Interval to redirect to index.html
+                            complete:()=>{
+                                document.getElementById('continueButton').classList.remove('hidden')
+                                anime({
+                                    targets:'#continueButton',
+                                    opacity:1,
+                                    duration:2000
+                                })
+
+                                setTimeout(()=>{
+                                    goToIndeX()
+                                },4000)
+                            }
+                        })
+                    }
+                })
+            }
+        })
+
+
+        const goToIndeX = () => {
+
+            anime({
+                targets:'.animatedTitle',
+                left:'100%',
+                duration:1000,
+                easing:'easeInOutQuint',
+                complete:()=>{
+                    window.location.href = 'http://127.0.0.1:5500/index.html'
+                }
+            })
+        }
+
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+</body>
+</html>

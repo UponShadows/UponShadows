@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<style>
+    .button-color{
+        background: hsla(226, 47%, 27%, 1);
+
+        background: linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -moz-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        background: -webkit-linear-gradient(90deg, hsla(226, 47%, 27%, 1) 50%, hsla(0, 0%, 0%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243364", endColorstr="#000000", GradientType=1 );
+    }
+</style>
+<body>
+    
+    <main class="flex flex-col">
+        
+        <div class="h-screen max-h-screen relative overflow-x-hidden">
+            <nav id="navigationbar" class="z-20 flex flex-col bg-[#6ba8d9] fixed top-[25%] min-w-[500px] right-[-460px] min-h-[500px] rounded-[30px] p-6 px-10">
+
+            
+                <div class="flex flex-col mb-4 relative">
+                    <img id="navArrow" name="testname" class="absolute h-[100px] w-[100px] top-[-80px] left-[-140px]" src="src/taipedArrow.svg" alt="" style="transform: scaleX(-1);">
+                 
+                    <h1 class="font-bold">HRADF</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                </div>
+    
+                <div class="flex flex-col  mb-4">
+                    <h1 class="font-bold">Groups of Assets</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+             
+                </div>
+    
+                <div class="flex flex-col ">
+                    <h1 class="font-bold">Assets</h1>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                    <div>test someting </div>
+                </div>
+    
+            </nav>
+    
+            <div class="bg-cover bg-top image-section" style="height:75%;background-image:url('src/homepage/Marina.jpg')">
+                <div class="flex  basis-1/5 flex items-center p-10 px-20">
+                    <p class="basis-1/4 flex justify-start items-center text-white text-xl leading-5">
+                        <img class="" src="src/taipedArrow.svg" alt="" >
+                        HELLENIC REPUBLIC ASSET <br> DEVELOPEMENT FUND 
+                    </p>
+                    <p class="basis-1/4 flex justify-center items-center text-lg font-medium tracking-[0.43rem] text-gray-500/80">
+                        YOUR GATEWAY <br> TO INVESTING IN GREECE 
+                    </p>
+                    <p class="basis-1/4 flex justify-center items-center"> </p>
+                    <p class="basis-1/4 flex justify-center items-center"> </p>
+                </div>
+            </div>
+    
+            <div id="menu-section" class="flex w-full justify-center gap-10 bg-[#202c5b] relative"  data-open='false' style="height:25%">
+                
+                <div class="absolute w-full h-full top-[0px] overflow-y-hidden">
+                    <p class="h-[1px]"  style="box-shadow: rgba(0, 0, 0, 1) 0px -40px 120px 120px;">
+                    </p>
+                </div>
+                <div class="flex flex-col justify-start items-center text-white text-lg data-showing"   data-showing = 'false'>
+                    <button class="py-3 rounded-md translate-y-[-40px] h-[80px] w-[300px] button-color">Hello world</button>
+                    <div class=" w-full flex justify-center relative mt-4 ">
+    
+                        <div class="text-2xl icon text-white rotate-[90deg] absolute right-[46%] arrow" style="opacity:0;top:-35px;">
+                            > 
+                        </div>
+                        <div class=" bg-red-100 w-[80%] rounded-lg imageDropdown" style="height:0px;opacity:0;background-image: url('src/3.png');">
+                            
+                        </div>
+                        <div class="hidden flex flex-col items-center w-[80%] rounded-lg p-2" style="height:0px;">
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                                    
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-start items-center text-white text-lg data-showing" data-showing = 'false'>
+                    <button class="py-3 rounded-md translate-y-[-40px] h-[80px] w-[300px] button-color">Hello world</button>
+                    <div class=" w-full flex justify-center relative mt-4 ">
+    
+                        <div class="text-2xl icon text-white rotate-[90deg] absolute right-[46%] arrow" style="opacity:0;top:-35px;">
+                            > 
+                        </div>
+                        <div class=" bg-red-100 w-[80%] rounded-lg imageDropdown" style="height:0px;opacity:0;background-image: url('src/3.png');">
+                            
+                        </div>
+                        <div class="hidden flex flex-col items-center w-[80%] rounded-lg p-2" style="height:0px;">
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>          
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-start items-center text-white text-lg data-showing" data-showing = 'false'>
+                    <button class="py-3 rounded-md translate-y-[-40px] h-[80px] w-[300px] button-color">Hello world</button>
+                    <div class=" w-full flex justify-center relative mt-4 ">
+    
+                        <div class="text-2xl icon text-white rotate-[90deg] absolute right-[46%] arrow" style="opacity:0;top:-35px;">
+                            > 
+                        </div>
+                        <div class=" bg-red-100 w-[80%] rounded-lg imageDropdown" style="height:0px;opacity:0;background-image: url('src/3.png');">
+                            
+                        </div>
+                        <div class="hidden flex flex-col items-center w-[80%] rounded-lg p-2" style="height:0px;">
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>          
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>          
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>          
+                            <div class="flex justify-center items-center translate-x-[200px] bg-gray-800/90 text-white w-full h-[50px] my-[1.5px] border border-white rounded-md" style="opacity:0;">1</div>          
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+
+        <div class="flex flex-col bg-[#202c5b] h-screen ">
+            <div class="flex  basis-1/5 flex items-center px-20 ">
+                <p class="basis-1/4 flex justify-start items-center text-white text-xl leading-5">
+                    <img src="src/taipedArrow.svg" alt="">
+                    HELLENIC REPUBLIC ASSET <br> DEVELOPEMENT FUND 
+                </p>
+                <p class="basis-1/4 flex justify-center items-center text-lg font-medium tracking-[0.43rem] text-gray-500/80">
+                    YOUR GATEWAY <br> TO INVESTING IN GREECE 
+                </p>
+                <p class="basis-1/4 flex justify-center items-center"> </p>
+                <p class="basis-1/4 flex justify-center items-center"> </p>
+            </div>
+            <iframe class=" basis-4/5 w-full h-full"  style="box-shadow: rgba(0, 0, 0, 1) -20px -20px 60px 4px;" src="https://www.youtube.com/embed/DLyYjp_F6So&themeRefresh=1" frameborder="0"></iframe>
+        </div>
+        
+
+    </main>
+
+
+    <script>
+
+        
+
+        //CONTAINER ANIMATION 
+        const openState = () => {
+            anime({
+                targets:'#menu-section',
+                height:'75%',
+                easing: 'easeOutQuint',
+            })
+            anime({
+                targets:'.image-section',
+                height:'25%',
+                easing: 'easeOutQuint',
+            })  
+        }
+
+        const closeState = () => {
+            anime({
+                targets:'#menu-section',
+                height:'25%',
+                easing: 'easeOutQuint',
+            })
+            anime({
+                targets:'.image-section',
+                height:'75%',
+                easing: 'easeOutQuint',
+            })
+        }
+
+        // First Layer Animations
+        const showImages = () => {
+            anime({
+                targets:'.imageDropdown',
+                opacity:100,
+                height:500,
+                easing: 'easeOutQuint',
+            })
+            anime({
+                targets:'.arrow',
+                opacity:100,
+                easing: 'easeOutQuint',
+            })
+        }
+        const hideImages = () => {
+            let menuContainers = document.querySelectorAll('.data-showing')
+            Array.from(menuContainers).forEach(item => {
+                let menu = item.children[1].children[2]
+                let image = item.children[1].children[1]
+                let arrow = item.children[1].children[0]
+                console.log(item.dataset)
+                if(item.dataset.showing === 'true'){
+                    item.dataset.showing = 'false'
+                    console.log('DATASET SHOWING OOPEN !!!!!')
+                    console.log('DATASET CHILD', )
+                    menu.classList.add('hidden')
+                    image.classList.remove('hidden')
+                    anime({
+                        targets:arrow,
+                        top:'-35px',
+                        rotate:'90deg',
+                    })
+                }
+            })
+
+            anime({
+                targets:'.imageDropdown',
+                opacity:0,
+                height:0,
+                easing: 'easeOutQuint',
+            })
+            anime({
+                targets:'.arrow',
+                opacity:0,
+                easing: 'easeOutQuint',
+            })
+        }
+      
+        // Second Layer Animations
+        const fadeOutImage = (item)=>{
+            item.parentElement.children[1].classList.add('hidden')
+            item.parentElement.children[2].classList.remove('hidden')
+
+            //Animate Arrow
+            anime({
+                targets:item,
+                rotate:'270deg',
+                top:'100%',
+                easing: 'easeOutQuint',
+            })
+
+            //Animate Image
+            anime({
+                targets:item.parentElement.children[1],
+                opacity:0,
+                height:0,
+                easing: 'easeOutQuint',
+            })
+            
+            // Animate Menu
+            anime({
+                targets:item.parentElement.children[2],
+                opacity:100,
+                height:'100%',
+                easing: 'easeOutQuint',
+            })
+
+            console.log('MENU ITEMS?',item.parentElement.children[2].children )
+            //Animate Menu Items
+            let menuItems = Array.from(item.parentElement.children[2].children)
+            anime({
+                targets:menuItems,
+                opacity:'100%',
+                translateX:'0px',
+                easing: 'easeOutQuint',
+                delay: anime.stagger(300)
+            })
+          
+        }
+
+        const fadeInImage = (item)=>{
+            
+
+            //Animate Arrow
+            anime({
+                targets:item,
+                rotate:'90deg',
+                top:'-35px',
+                easing: 'easeOutQuint',
+            })
+
+            //Animate Image
+            anime({
+                targets:item.parentElement.children[1],
+                opacity:100,
+                height:500,
+                easing: 'easeOutQuint',
+            })
+            
+            // Animate Menu
+            anime({
+                targets:item.parentElement.children[2],
+                opacity:0,
+                height:'0%',
+                easing: 'easeOutQuint',
+            })
+
+            console.log('MENU ITEMS?',item.parentElement.children[2].children )
+            //Animate Menu Items
+            let menuItems = Array.from(item.parentElement.children[2].children)
+            anime({
+                targets:menuItems,
+                opacity:'0%',
+                translateX:'200px',
+                easing: 'easeOutQuint',
+                delay: anime.stagger(300)
+            })
+
+
+            item.parentElement.children[1].classList.remove('hidden')
+            item.parentElement.children[2].classList.add('hidden')
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            var menuSection=document.getElementById('menu-section')
+            document.querySelectorAll(".button-color").forEach(item => {
+                console.log('\n\n PARENT NODESS \n\n', item.parentNode.children)
+                let arrow = item.parentNode.children[2]
+                let itemContainer = item.parentNode
+
+                console.log('ITEM CHILDREN', item.parentElement)
+                console.log(menuSection.dataset.open === 'true')
+                
+                //On button Click
+                item.addEventListener('click', () => {
+                    // itemContainer.style.backgroundColor = 'red'
+                    console.log(itemContainer.dataset, 'DATASET')
+                    if (menuSection.dataset.open === 'false'){
+
+                        menuSection.dataset.open = 'true'
+                        
+                        console.log(menuSection.dataset)
+                        openState()
+                        showImages()
+                    }
+                    else{
+                        console.log('ELSE', menuSection.dataset)
+                        menuSection.dataset.open = 'false'
+
+                        closeState()
+                        hideImages()
+                    }
+                })
+            })
+
+            document.querySelectorAll(".arrow").forEach(item => {
+                var menuSection=document.getElementById('menu-section')
+                console.log('Arrow', item)
+                let itemContainer = item.parentElement.parentElement
+                let parent = item.parentElement.parentElement
+                
+                //On button Click
+                item.addEventListener('click', () => {
+                    console.log('DATASET ARROW', parent.dataset)
+                    
+                    if (parent.dataset.showing === 'false'){
+                        parent.dataset.showing = 'true'
+                        fadeOutImage(item)
+                        console.log('Showing', parent.dataset)
+                        
+                    }
+                    else{
+                        parent.dataset.showing = 'false'
+                        fadeInImage(item)
+                        console.log('Not Showing', parent.dataset)
+                     
+                        
+                    }
+                })
+            })
+
+            let navigationbar = document.getElementById('navigationbar')
+            let navArrow = document.getElementById('navArrow')
+            navigationbar.addEventListener("mouseover",(e)=>{
+                console.log(navArrow)
+                console.log('Hovering ->', e.target.name)
+                if(e.target.name === 'testname'){
+                    return
+                }
+                anime({
+                    targets:navigationbar,
+                    translateX:-230,
+                    duration:1000
+                })
+                anime({
+                    targets:navArrow,
+                    scaleX:1,
+                    scaleY:1,
+                    rootate:180,
+                    duration:500,
+                    easing:'easeOutQuint',
+                })
+            })
+
+            navigationbar.addEventListener("mouseleave",()=>{
+
+                anime({
+                    targets:navigationbar,
+                    translateX:0,
+                    duration:1000
+
+                })
+                anime({
+                    targets:navArrow,
+                    scaleX:-1,
+                    scaleY:1,
+                    rootate:180,
+                    duration:500,
+                    easing:'easeOutQuint',
+                })
+            })
+
+
+
+        // DOM
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+</body>
+</html>
